@@ -1,0 +1,33 @@
+.header {
+    color: rgb(156, 156, 192);
+    display:flex;
+    justify-content:space-between;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:20px;
+}
+body{
+    background-color: #ace3ac;
+
+}
+.links {
+    display:flex;
+    justify-content: flex-end;
+}
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p {
+    font-size: 30px;
+}
+.social {
+    transform: rotate(-10deg);
+    display:flex;
+    justify-content: flex-end;
+}
+* {
+border: solid;
+margin-left: 100px
+}
